@@ -4,7 +4,8 @@
   "description": "Trabajar con Asincronismo con JavaScript",
   "main": "index.js",
   "scripts": {
-    "callback": "node callback/index.js"
+    "callback": "node callback/index.js",
+    "callback:api": "node callback/api.js"
   },
   "keywords": [
     "callbacks",
@@ -12,5 +13,8 @@
     "async"
   ],
   "author": "Astrik Torres",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
