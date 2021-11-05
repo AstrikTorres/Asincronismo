@@ -4,7 +4,7 @@
   "description": "Trabajar con Asincronismo con JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node callback/index.js"
   },
   "keywords": [
     "callbacks",
