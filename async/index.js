@@ -7,17 +7,12 @@ const doSomethingAsync = () => {
 }
 
 // indicamos con "async" que esta función es asíncrona y debe esperar algo para seguir su ejecución.
-/*  Al llamar a nuestra función asíncrona doSomething ocurre:
-    1. la const something va a guardar el return de la función principal.
-    2. Gracias a la palabra "await" esperara a que la función principal 
-       termine de ejecutarse para continuar.
-    3. La respuesta de la promesa ya esta en la constante something.
-    4. Imprimimos something que contiene la respuesta de la promesa.
-       en este caso "Do something Async"
-*/
 const doSomething = async () => {
+    /* la const something va a guardar el return de la función "doSomethingAsync",
+    gracias a que esperara a que termine de ejecutarse por la palabra reservada "await".*/
     const something = await doSomethingAsync();
-    console.log(something); 
+    // La respuesta de la promesa ya esta en la constante something.
+    console.log(something); // input: Do something Async
 }
 
 console.log('Before');
